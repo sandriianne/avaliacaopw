@@ -1,0 +1,11 @@
+import "./Title.css";
+function Title(){
+    return(
+        <div>
+           <p className="title"> Notícias</p>
+           <p className="subtitle">Portal do IFRO</p>
+        </div>
+    );
+}
+
+export default Title;
